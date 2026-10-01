@@ -1,12 +1,16 @@
 {
   "name": "set-up-local-redis",
   "version": "1.0.0",
-  "description": "",
-  "license": "ISC",
   "author": "",
-  "type": "commonjs",
-  "main": "index.js",
+  "private": "true",
+  "type": "module",
+
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node index.js"
+  },
+  "dependencies": {
+    "express":"^4.18.3",
+    "ioredis":"^5.4.1",
+    "mongoose":"^8.2.1"
   }
 }
