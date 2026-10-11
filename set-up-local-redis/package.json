@@ -4,13 +4,12 @@
   "author": "",
   "private": "true",
   "type": "module",
-
   "scripts": {
-    "dev": "node index.js"
+    "dev": "node api.js && node index.js"
   },
   "dependencies": {
-    "express":"^4.18.3",
-    "ioredis":"^5.4.1",
-    "mongoose":"^8.2.1"
+    "express": "^4.18.3",
+    "ioredis": "^5.4.1",
+    "mongoose": "^8.2.1"
   }
 }

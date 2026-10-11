@@ -1,0 +1,16 @@
+{
+  "name": "08-bullMQ",
+  "version": "1.0.0",
+  "author": "",
+  "private": "true",
+  "type": "module",
+  "scripts": {
+    "dev": "node api.js && node src/index.js"
+  },
+  "dependencies": {
+    "bullmq": "^5.4.2",
+    "express": "^4.22.3",
+    "ioredis": "^5.4.1",
+    "mongoose": "^8.2.1"
+  }
+}
